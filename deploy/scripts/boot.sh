@@ -14,7 +14,7 @@ install_docker(){
 
 deploy_ballerine(){
 	mkdir -p /home/ubuntu/ballerine; cd /home/ubuntu/ballerine
-        curl https://raw.githubusercontent.com/ballerine-io/ballerine/dev/deploy/docker-compose.yml -o /home/ubuntu/ballerine/docker-compose.yml 
+  curl https://raw.githubusercontent.com/ballerine-io/ballerine/dev/deploy/docker-compose.yml -o /home/ubuntu/ballerine/docker-compose.yml 
 }
 
 install_docker
